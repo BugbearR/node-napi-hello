@@ -1,0 +1,15 @@
+{
+  "name": "napi-hello",
+  "version": "0.1.0",
+  "description": "N-API Hello, world!",
+  "main": "hello.js",
+  "author": "BugbearR <bugbearr@bugbearr.jp> (http://github.com/bugbearr)",
+  "license": "CC0-1.0",
+  "scripts": {
+    "test": "node hello.js"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0"
+  }
+}
